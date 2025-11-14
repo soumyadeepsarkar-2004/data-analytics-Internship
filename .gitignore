@@ -1,0 +1,37 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# Generated analysis artifacts (CSV/TXT) – images kept for docs
+analysis/output/*.csv
+analysis/output/*.txt
+analysis/output/*_summary*.txt
+analysis/output/*corr*.txt
+
+# Local data (not versioned)
+Data analysis dataset/
+DATA ANALYSIS TASK LIST AND DATASET/
+
+# Environment / secrets
+.env*
+
+coverage/
+.pytest_cache/
